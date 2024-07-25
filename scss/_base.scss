@@ -38,6 +38,22 @@ body{
 .fs-h5{ font-size: $fs-h5; font-weight: bold; } // 24px
 .fs-h6{ font-size: $fs-h6; font-weight: bold; } // 20px
 
+@media (max-width: 992px){
+    .fs-lg-1{ font-size: $fs-1; } // 32px
+    .fs-lg-2{ font-size: $fs-2; } // 28px
+    .fs-lg-3{ font-size: $fs-3; } // 24px
+    .fs-lg-4{ font-size: $fs-4; } // 20px
+    .fs-lg-5{ font-size: $fs-5; } // 16px
+    .fs-lg-6{ font-size: $fs-6; } // 14px
+    
+    .fs-lg-h1{ font-size: $fs-h1; font-weight: bold; } // 64px
+    .fs-lg-h2{ font-size: $fs-h2; font-weight: bold; } // 48px
+    .fs-lg-h3{ font-size: $fs-h3; font-weight: bold; } // 36px
+    .fs-lg-h4{ font-size: $fs-h4; font-weight: bold; } // 32px
+    .fs-lg-h5{ font-size: $fs-h5; font-weight: bold; } // 24px
+    .fs-lg-h6{ font-size: $fs-h6; font-weight: bold; } // 20px
+}
+
 @media (max-width: 576px){
     .fs-sm-1{ font-size: $fs-1; } // 32px
     .fs-sm-2{ font-size: $fs-2; } // 28px
