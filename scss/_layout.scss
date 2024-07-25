@@ -393,6 +393,7 @@
 
 .footer-nav{
     gap: 48px;
+    margin-bottom: 36px;
 }
 
 .footer-nav li a{
@@ -440,6 +441,9 @@
 }
 
 @media (max-width: 992px) {
+    .footer-nav{
+        margin-bottom: 32px;
+    }
     .footer-sns{
         gap: 16px;
     }
